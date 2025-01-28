@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Arimo,Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  margin: 0;
+}
+.main-box {
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 0px 20px 20px 20px;
+  box-shadow: 0px 0px 10px;
+  align-self: center;
+
+}
+.button-box {
+  margin: 10px 10px;
+  justify-self: center;
+}
+.button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  background-color: 
+  rgba(53,51,53,255);
+  margin: 4px 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button:active {
+  box-shadow: 0px 0px 5px;
+}
+.top-three-button {
+  background-color: rgba(167,164,166,255);
+  font-size: 16px;
+}
+.operation-button {
+  background-color: rgba(240,162,58,255);
+}
+#display {
+  font-size: 50px;
+  font-weight: 200;
+  justify-self: flex-end;
+  padding-right: 20px;
+  margin-top: 100px;
+}
